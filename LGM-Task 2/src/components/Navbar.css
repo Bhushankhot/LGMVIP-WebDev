@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Navbar {
+  background-color: #2e032a;
+
+  padding: 15px;
+}
+
+.Navbar .brand {
+  font-size: 32px;
+  font-weight: 800;
+  color: #f1c2dc;
+}
+
+/* Get user btn */
+.button {
+  border: none;
+  color: #0a0006;
+  padding: 14px 26px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px 2px;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: #b63886;
+  color: #11000a;
+  border: 2px solid #09d602;
+  float: right;
+}
+
+.mobile-menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 700px) {
+  .logo {
+    display: flex;
+    position: absolute;
+    top: 15px;
+    left: 35px;
+  }
+}
+
+.qwerty {
+  background-color: aqua;
+}
